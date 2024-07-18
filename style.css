@@ -1,0 +1,161 @@
+
+
+
+
+
+.navber{
+    max-width: 100%;
+    background-color: black;
+    border: 1px solid tomato;
+}
+.navber-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* brand name desgin  */
+.brand-name{
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: 700px;
+}
+/* home links design */
+.department{
+    /* width: 25%; */
+    color: white;
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: 600px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    /* margin-right: 20px; */
+    padding:5px 25px 5px 25px;
+
+
+}
+/* home button desgin */
+.home{
+    background-color: red;
+}
+.list-container{
+    /* width: 29.8%; */
+    border: 1px solid lightslategrey;
+  
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+.hidden{
+    display: none;
+}
+.horizontal{
+    width: 10px;
+    margin: 0.5px;
+    color: white;
+
+}
+
+
+/* Banner Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile devise responsive */
+
+
+@media  screen and (max-width:576px) {
+
+    /* .navber-container{
+        width: calc(100% - 40px - 20px);
+        flex-direction: column;
+        gap: 20px;
+    } */
+
+    /* navber Section */
+    .navber,
+     .navber-container{
+        width: calc(100% - 30px - 20px);
+        margin: 0 auto;
+       
+        
+     }
+
+
+
+    .list-container{
+        display: none;
+      
+    }
+    .menubar{
+        display: contents;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .brand-name{
+        font-size: 1rem;
+    }
+
+
+
+    /* banner section  */
+ 
+
+
+    
+}
+
+
+
+/* Tablet Devise Responsive */
+@media screen  and (min-width:576px) and (max-width:892px){
+    .navber,
+     .navber-container{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+       
+        
+     }
+     .list-container{
+        /* width: 29.8%; */
+        /* border: 1px solid lightslategrey; */
+        /* padding:1px 0px 1px 0px; */
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+       
+       
+    }
+    .department{
+        padding:5px 10px 5px 10px;
+    }
+
+    /* banner section  */
+   
+}
+
+
