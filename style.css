@@ -1,62 +1,73 @@
+main{
+    background-color: black ;
+}
 
 
-
-
-
-.navber{
+.navber {
     max-width: 100%;
     background-color: black;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
-.navber-container{
+
+.display {
+    display: flex;
+}
+
+.navber-container {
     max-width: 80%;
     margin: 0 auto;
-    display: flex;
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 /* brand name desgin  */
-.brand-name{
+.brand-name {
     color: brown;
     font-size: 1.5rem;
     font-weight: 700px;
 }
+
 /* home links design */
-.department{
+.department {
     /* width: 25%; */
     color: white;
     text-decoration: none;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 600px;
     /* border: 1px solid red; */
     border-radius: 25px;
     /* margin-right: 20px; */
-    padding:5px 25px 5px 25px;
+    padding: 5px 25px 5px 25px;
 
 
 }
+
 /* home button desgin */
-.home{
+.home {
     background-color: red;
 }
-.list-container{
+
+.list-container {
     /* width: 29.8%; */
     border: 1px solid lightslategrey;
-  
+
     border-radius: 25px;
-    display: flex;
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-   
+
 }
-.hidden{
+
+.hidden {
     display: none;
 }
-.horizontal{
+
+.horizontal {
     width: 10px;
     margin: 0.5px;
     color: white;
@@ -66,25 +77,344 @@
 
 /* Banner Section */
 
+.banner {
+    max-width: 100%;
+    background-color: black;
+}
+
+.banner-container {
+    max-width: 80%;
+    margin: 0 auto;
+
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 1px solid tomato; */
+
+}
+
+.banner-header {
+    font-size: 4rem;
+    font-weight: 700px;
+    color: white;
+    font-family: Inner;
+    margin-bottom: 24px;
+
+
+}
+
+.banner-paragraph {
+    font-size: 0.9rem;
+    font-weight: 400px;
+    color: lightgray;
+    font-family: Inner;
+    margin-bottom: 24px;
+}
+
+.banner-button {
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.banner-button-1 {
+    max-width: 40%;
+    /* border: 1px solid tomato; */
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600px;
+    border: none;
+}
+
+.banner-button-2 {
+    max-width: 40%;
+    border: 1px solid lightgrey;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600px;
+
+}
+
+/* Banner picture Section  */
 
 
 
 
 
 
+/* Habits Section  */
+.habits-section{
+    width: 100%;
+    border: 1px solid tomato;
+    background-color:black;
+    
+}
+.habits-container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* habits message container */
+.habits-message-container{
+    width: 40%;
+    border: 1px solid tomato;
+}
+.habits-message-container h5{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: white;
+    font-family: Inner;
+    text-align: center;
+   
+    
+
+}
+.habits-message-container p{
+    font-size: 1 rem;
+    font-weight: 400px;
+    color: lightgray;
+    text-align: center;
+}
+.habits-picture-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    
+}
+.picture-subcontainer img{
+
+    border-radius: 50%;
+}
+.picture-subcontainer h2{
+    font-size: 1 rem;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+}
+.picture-subcontainer p{
+    font-size: 0.8rem;
+    font-weight: 400px;
+    color: gray;
+    text-align: center;
+}
+
+
+
+/* Run Section */
+
+
+.run-section{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    /* padding-top:20px;
+    padding-left: 20px; */
+}
+.run-container {
+    width: 80%;
+    flex-direction: row;
+    /* border: 1px solid tomato; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-radius:15px ;
+    /* padding: 15px; */
+    background-color: grey;
+    padding: 10px;
+    
+    
+}
+.run-message{
+    width: 100%;
+   /* border: 1px solid tomato; */
+   padding-left:30px;
+}
+.run-message h1{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: white;
+}
+.run-message p{
+    font-size: 1rem;
+    font-weight: 700px;
+    color:aliceblue;
+}
+.run-picture img{
+   width: 50%;
+   border-radius: 15px;
+   margin-left: 47%;
+  
+  
+}
+.run-button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:lightcoral;
+    color: white;
+    font-weight: 700px;
+    font-size: 1rem;
+
+
+}
+
+/* training Section */
+
+
+.training-section{
+    width: 100%;
+    margin-top: 24px;
+   
+}
+.training-container{
+    width: 80%;
+    border: 1px solid tomato;
+    margin: 0 auto;
+}
+.training-message-1{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600px;
+   
+}
+.training-paragrap{
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 400px;
+   
+    
+}
+.training-picture{
+    
+    
+   
+}
+.image1{
+   
+   display: flex;
+   flex-direction: row;
+  
+}
+.image2{
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+  
+}
+.image1 img{
+   
+    /* width: 200px; */
+    height: 100%;
+
+    /* border: 1px solid tomato; */
+    
+}
+/* .image2 img{
+    width: 200px;
+} */
+
+.image1 > .image-1{
+    width: 30%;
+    height: 150px;
+    
+}
+.image1 > .image-2{
+    width: 40%;
+    height: 150px;
+}
+.image1 > .image-3{
+    width: 30%;
+    height: 150px;
+}
+
+
+.image2 > .image-4{
+    width: 35%;
+    height: 150px;
+}
+.image2 > .image-5{
+    width: 30%;
+    height: 150px;
+}
+.image2 > .image-6{
+    width: 35%;
+    height: 150px;
+}
+
+
+
+/* BMI Calculator Message */
+
+.bmi-calculator-message{
+    width: 100%;
+    background-color: black;
+  
+}
+.bmi-calculator-container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid tomato;
+
+}
+.bmi-calculator-container h1{
+    font-size: 2.5rem;
+    font-weight: 700px;
+    color: white;
+    text-align: center;
+
+}
+.bmi-calculator-container p{
+    font-size: .8rem;
+    font-weight:400px;
+    color: gray;
+    text-align: center;
+}
+
+
+/* Chart Section */
+
+
+
+.bmi-calculator{
+    width: 100%;
+    background-color:gray;
+}
+.bmi-container{
+    width: 80%;
+    border: 1px solid tomato;
+    margin: 0 auto;
+}
+.chart-container table{
+    border: 1px solid white;
+
+}
+.chart-container table {
+    border: 1px solid white;
+}
 
 
 
 
 
 
+/* Mobile devise responsive */
 
 
-
-/* mobile devise responsive */
-
-
-@media  screen and (max-width:576px) {
+@media screen and (max-width:576px) {
 
     /* .navber-container{
         width: calc(100% - 40px - 20px);
@@ -93,52 +423,120 @@
     } */
 
     /* navber Section */
-    .navber,
-     .navber-container{
-        width: calc(100% - 30px - 20px);
+    /* .navber, */
+    .navber-container,
+    .bmi-calculator-container {
+        width: calc(100% - 40px - 20px);
         margin: 0 auto;
-       
-        
-     }
 
 
-
-    .list-container{
-        display: none;
-      
     }
-    .menubar{
+
+
+
+    .list-container {
+        display: none;
+
+    }
+
+    .menubar {
         display: contents;
         display: flex;
         flex-direction: column;
-        
+
     }
-    .brand-name{
+
+    .brand-name {
         font-size: 1rem;
     }
 
 
 
     /* banner section  */
+    /* .banner, */
+    .banner-container,
+    .habits-picture-container,
+    .run-section{
+        width: calc(100% - 40px - 20px);
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .habits-message-container{
+        width: 90%;
+    }
+    /* Run Section Responsive of Mobie Device */
+    .run-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top: 20px;
+        
+    }
+    .run-picture img{
+        width: 90%;
+      margin: 0 auto;
+       margin-top: 16px;
+       text-align: center;
+       margin-left: 5%;
+       margin-bottom: 12px;
+    }
+    .run-message{
+        width: 80%;
+        text-align: center;
+        padding: 0px;
+    }
+    .run-button{
+        width: 100%;
+    }
+
+
+    /* Training Section */
+    .image1 > .image-3{
+        display: none;
+    }
+    .image2 > .image-6{
+        display: none;
+    }
+    .image1 > .image-1{
+        width: 50%;
+        
+    }
+    .image1 > .image-2{
+        width: 50%;
+        
+    }
+
+    .image2 > .image-4{
+        width: 45%;
+        
+    }
+    .image2 > .image-5{
+        width: 55%;
+        
+    }
+ 
  
 
-
-    
 }
 
 
 
 /* Tablet Devise Responsive */
-@media screen  and (min-width:576px) and (max-width:892px){
+@media screen and (min-width:576px) and (max-width:892px) {
+
     .navber,
-     .navber-container{
+    .navber-container {
         width: 100%;
         margin: 0 auto;
         justify-content: space-between;
        
-        
-     }
-     .list-container{
+
+
+    }
+
+    .list-container {
         /* width: 29.8%; */
         /* border: 1px solid lightslategrey; */
         /* padding:1px 0px 1px 0px; */
@@ -147,15 +545,41 @@
         flex-direction: row;
         justify-content: space-between;
 
-       
-       
+
+
     }
-    .department{
-        padding:5px 10px 5px 10px;
+
+    .department {
+        padding: 5px 10px 5px 10px;
     }
 
     /* banner section  */
-   
+    .banner-container {
+        width: calc(100% - 40px - 20px);
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+       
+    }
+    .banner-picture{
+        align-items: center;
+    }
+    .habits-picture-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .habits-message-container{
+        width: 90%;
+    }
+    .run-container{
+        width: calc(100% - 40px - 20px);
+        margin: 0 auto;
+
+    }
+
+
 }
-
-
